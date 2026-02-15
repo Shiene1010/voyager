@@ -1,0 +1,41 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Shiene의 AI 코딩 블로그
+email: shiene1010@github.com
+description: > # this means to ignore newlines until "baseurl:"
+  비전공 개발자 Shiene이 Antigravity AI와 함께하는 창의적인 개발 여정과 습작들을 기록합니다.
+baseurl: "/voyager" # the subpath of your site, e.g. /blog
+lang: "ko"
+url: "https://shiene1010.github.io" # the base hostname & protocol for your site
+twitter_username: 
+github_username:  Shiene1010
+disqus_username:
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
+
+# Posts settings
+future: true
+safe: false
+lsi: false
+excerpt_separator: "\n\n"
+
+# Theme settings
+compress_html:
+  comments: ["<!-- ", " -->"]
+  clippings: all
+  endings: all
+
+
+sass:
+  style: compressed
+
+
+images: '/assets/images'
