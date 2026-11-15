@@ -46,6 +46,8 @@ Apple의 실내 지도 표준인 **IMDF**를 기반으로 코엑스 지하 1층�
 비전공자라도 체계적인 커밋 단위로 프로젝트를 쪼개면 복잡한 시각화 웹 앱도 충분히 구현할 수 있습니다.
 ![실내 길라잡이 AI 3단 관제 대시보드 시연 화면]({{ "/assets/images/coex-demo-dashboard.svg" | relative_url }})
 
+데모 배포 주소: [코엑스 미로 길라잡이 래그 AI 바로가기](https://shiene1010.github.io/coex_maze_rag_demo/)
+
 1. **`feat(core)`**: IMDF 사각 그리드 데이터 모델링 및 층별 도면(`floor-b1.svg`, `floor-1f.svg`) 렌더링
 2. **`feat(nav)`**: 수직·실외 페널티 기반 경로 탐색 및 시연용 가상 이동(Time-Loop) 컨트롤러 구현
 3. **`feat(ux)`**: 좌측 메신저, 중앙 3계층 그리드 궤적 맵, 우측 RAG X-Ray 로그가 동기화되는 3단 관제 UI 구축
